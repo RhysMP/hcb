@@ -23,6 +23,10 @@
 class Event
   class Plan
     class Argosy2026 < SpendOnly
+      def revenue_fee
+        0
+      end
+
       def label
         "2026 Argosy grantee spend-only"
       end
